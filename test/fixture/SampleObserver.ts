@@ -1,5 +1,5 @@
-import {Observe} from "../../src/Observer";
-import {StateType} from "../../src/ServiceStatus";
+import {Observe} from "../src/Observer";
+import {StateType} from "../src/ServiceStatus";
 class PService {
     async ping() {
         return true;
